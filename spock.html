@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="title">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div class="choices">
+
+        <div class="choice" id="r">
+            <button class="btn" id="rock-button">✊</button>
+        </div>
+        <div class="choice" id="p">
+            <button class="btn" id="paper-button">✋</button>
+        </div>
+        <div class="choice" id="s">
+            <button class="btn" id="scissors-button">🤞</button>
+        </div>
+        <div class="choice" id="l">
+            <button class="btn" id="lizard-button">🦎</button>
+        </div>
+        <div class="choice" id="sp">
+            <button class="btn" id="spock-button">🖖</button>
+        </div>
+
+    </div>
+
+    <div class="result">
+        <h3>Last Round</h3>
+        <table class="player-choices">
+            <tr>
+                <th>You Picked</th>
+                <th>Computer Picked</th>
+            </tr>
+            <tr>
+                <td id="user-pick" class="player-choices"></td>
+                <td id="comp-pick" class="player-choices"></td>
+            </tr>
+        </table>
+        <p id="turn-text">Paper covers rock. You win!</p>
+    </div>
+
+    <div class="scoreboard">
+        <h3>Scoreboard</h3>
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Losses</th>
+            </tr>
+            <tr>
+                <td id="win">0</td>
+                <td id="draw">0</td>
+                <td id="lose">0</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="spock.js"></script>
+</body>
+
+</html>

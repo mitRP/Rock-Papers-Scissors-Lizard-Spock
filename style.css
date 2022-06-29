@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(40, 44, 52);
+}
+
+header {
+    background-color: #00c0c0;
+    padding: 20px;
+}
+
+header>h1 {
+    color: rgb(40, 44, 52);
+}
+
+.game-choice {
+    font-size: 100px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+p {
+    margin: 20px;
+    color: rgb(238, 238, 238);
+}
+
+.rules {
+    color: rgb(238, 238, 238);
+}
+
+h2 {
+    color: rgb(238, 238, 238);
+    margin: 20px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+th,
+td {
+    margin: auto;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+td {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 4px;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+.player-choices{
+    width: 600px;
+}
+
+#win {
+    border: 1px solid #00c0c0;
+    box-shadow: 0px 0px 8px 2px #00c0c0;
+}
+
+#lose {
+    border: 1px solid red;
+    box-shadow: 0px 0px 8px 2px rgb(235, 75, 75);
+}
+
+.btn {
+    font-size: 100px;
+}
+
+.scoreboard {
+    margin: 10px auto 0;
+    padding: 20px;
+    color: rgb(238, 238, 238);
+    position: relative;
+}
+
+.choices {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    margin: 20px;
+}
+
+.btn {
+    background: none;
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 2px -2px rgb(238, 238, 238);
+}
+
+.btn:focus {
+    box-shadow: 0 4px 2px -2px #00c0c0;
+}
+
+.result {
+    color: rgb(238, 238, 238);
+    margin: 20px;
+}
+
+#turn-text {
+    margin: 20px;
+    font-size: 28px;
+}
+
+#uchoice {
+    color: #00c0c0;
+}
+
+#cchoice {
+    color: rgb(235, 75, 75);
+}
